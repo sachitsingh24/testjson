@@ -1,5 +1,217 @@
 {
-  "name":"test",
-  "age":21,
-  "gender":"M"
+  "bookingID": "TM9518273123",
+  "topStatusCardInfo": {
+    "topStatusText": "Your Trip is Secured",
+    "status": "UPCOMING",
+    "page": "Insurance"
+  },
+  "primaryContactDetails": {
+    "title": "Primary Contact",
+    "emailID": "naman.rawal@go-mmt.com",
+    "name": "Test",
+    "phoneNumber": "918630271116"
+  },
+  "insuranceDetails": {
+    "title": "Travel Assistance - TripMoney Explorer",
+    "subTitle": "TATA AIG General Insurance",
+    "icon": "",
+    "additionalInfo": {
+      "BOUGHT ON": "Wed 22 Dec'20",
+      "ORDER ID": "TM9518273123",
+      "DESTINATION": "Thailand,UAE",
+      "VALIDITY": "20 Sept 2022 to 26 Sep 2022",
+      "TRAVEL PURPOSE": "Leisure Trip",
+      "INSURED": "4 Travellers",
+    }
+  },
+  "passportDetails": {
+    "description": "Please add your passport details before Fri, 12 November 2022  to generate policy document",
+    "cta": {
+      "label": "ADD PASSPORT DETAILS"
+    }
+  },
+  "pricePaymentBreakup": {
+    "heading": "Price & Payment Breakup",
+    "pricingBreakup": {
+      "heading": "Price Breakup",
+      "pricingBreakupMap": {
+        "Insurance (2000)": "₹ 515",
+        "Assistance 1": "₹ 32"
+      },
+      "priceBaseFare": {
+        "text": "Base Fare",
+        "fare": "₹ 3000"
+      },
+      "pricingTotalCost": {
+        "text": "Total Cost",
+        "totalCost": "₹ 2650"
+      },
+      "priceServiceFee": {
+        "text": "MMT Service Fee",
+        "fee": "₹ 150"
+      }
+    },
+    "paymentBreakup": {
+      "paymentBreakupAmountPaid": {
+        "text": "AMOUNT PAID",
+        "value": "₹ 491"
+      },
+      "paymentBreakupMap": {
+        "Standard Charted Bank": "₹ 491"
+      },
+      "paymentBreakupTotalPrice": {
+        "text": "TOTAL PRICE",
+        "value": "₹ 491"
+      },
+      "paymentBreakupHeading": "Payment Breakup"
+    }
+  },
+  "travellerDetails": {
+    "title": "Travellers Insured (5)",
+    "travellers": [
+      {
+        "name": "Test",
+        "paxType": "Adult",
+        "gender": "male",
+        "age": 16,
+        "des": "Passport No: Z2061620)",
+        "id": "1",
+        "dob": "2000-12-10",
+        "passportNumber": "81623876",
+        "cta":{
+          "label":"DOWNLOAD"
+        }
+      },
+      {
+        "name": "Test",
+        "paxType": "Adult",
+        "gender": "male",
+        "age": 16,
+        "des": "Passport No: Z2061620)",
+        "id": "2",
+        "dob": "2000-12-10",
+        "passportNumber": "8176123576",
+        "cta":{
+          "label":"DOWNLOAD"
+        }
+      },
+      {
+        "name": "Test",
+        "paxType": "Adult",
+        "gender": "male",
+        "age": 16,
+        "des": "Passport No: Z2061620)",
+        "id": "3",
+        "dob": "2000-12-10",
+        "passportNumber": "876187236",
+        "cta":{
+          "label":"DOWNLOAD"
+        }
+      }
+    ]
+  },
+  "travellerAssistantDetails": {
+    "title": "Global Travel Assistant",
+    "subTitle": "24*7 hotline number",
+    "number": "+91 876182736",
+    "phoneNumber":"+91 98981828873",
+  },
+  "desktopLayoutDetail": {
+    "centerCardList": [
+      {
+        "cardId": "TopStatusCard",
+        "cardRank": 1
+      },
+      {
+        "cardId": "InsuranceDetailCard",
+        "cardRank": 2
+      },
+      {
+        "cardId": "InsurancePlanInfoCard",
+        "cardRank": 3
+      },
+      {
+        "cardId": "TravellersDetailCard",
+        "cardRank": 4
+      },
+      {
+        "cardId": "ContactInfoCard",
+        "cardRank": 5
+      }
+    ],
+    "rightCardList": [
+      {
+        "cardId": "DownloadPolicyCard",
+        "cardRank": 1
+      },
+      {
+        "cardId": "AddPassportCard",
+        "cardRank": 2
+      },
+      {
+        "cardId": "PriceBreakupCard",
+        "cardRank": 3
+      },
+      {
+        "cardId": "PaymentBreakupCard",
+        "cardRank": 4
+      },
+      {
+        "cardId": "travelAssistanceCard",
+        "cardRank": 4
+      }
+    ]
+  },
+  "layoutDetail": {
+    "cardList": [
+      {
+        "cardId": "TopStatusCard",
+        "cardRank": 1,
+        "subCardList": [
+          {
+            "cardId": "travelAssistanceCard",
+            "cardRank": 1
+          },
+          {
+            "cardId": "PassportInfoCard",
+            "cardRank": 2
+          },
+          {
+            "cardId": "InsuranceInfoCard",
+            "cardRank": 3
+          },
+          {
+            "cardId": "InsuranceDetailCard",
+            "cardRank": 4
+          }
+        ]
+      },
+      {
+        "cardId": "InsurancePlanCard",
+        "cardRank": 2
+      },
+      {
+        "cardId": "InsurancePaymnentCard",
+        "cardRank": 3
+      },
+      {
+        "cardId": "ContactInfoCard",
+        "cardRank": 4
+      },
+      {
+        "cardId": "Price&PaymentBreakup",
+        "cardRank": 5,
+        "subCardList": [
+          {
+            "cardId": "PriceBreakupCard",
+            "cardRank": 1
+          },
+          {
+            "cardId": "PaymentBreakupCard",
+            "cardRank": 2
+          }
+        ]
+      }
+    ]
+  }
 }
